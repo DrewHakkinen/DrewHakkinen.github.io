@@ -10,7 +10,7 @@ h1 {
 h2 {
     color: #780000
 }
-
-p {
-    font-family: ;
-}
+ @font-face {
+        font-family: komika title;
+        src: url(KOMTITT_.ttf);
+    }
