@@ -13,4 +13,8 @@ h2 {
  @font-face {
         font-family: komika title;
         src: url(KOMTITT_.ttf);
-    }
+ }
+
+p {
+    font-family: komika title;
+} 
