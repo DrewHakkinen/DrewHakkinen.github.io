@@ -7,6 +7,11 @@ header{
     padding-top: 30px;
 }
 
+ @font-face {
+        font-family: komika title;
+        src: url(KOMTIhttps://www.dafont.com/komika-title.charmap?f=3&back=themeTT_.ttf);
+ }
+
 h1 {
     color: #780000
 
@@ -15,11 +20,16 @@ h1 {
 h2 {
     color: #780000
 }
- @font-face {
-        font-family: komika title;
-        src: url(KOMTIhttps://www.dafont.com/komika-title.charmap?f=3&back=themeTT_.ttf);
- }
 
 p {
     font-family: komika title;
 } 
+
+nav a {
+    background: ;
+    font-family: otsikko, "sans serif";
+    color:whitesmoke;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid rgba(87, 54, 4);
+}
