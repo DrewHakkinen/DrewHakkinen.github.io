@@ -35,6 +35,11 @@ nav a {
 }
 
 nav a:hover {
-    color: rgba(87, 54, 4);
-    background-color: whitesmoke;
+    color: #003049;
+    background-color: #669bbc;
+}
+
+#valittu {
+    color: #003049;
+    background-color:rgba(255, 235, 205, 0.6);
 }
