@@ -28,8 +28,13 @@ p {
 nav a {
     background: #003049;
     font-family: otsikko, "sans serif";
-    color:whitesmoke;
+    color:#fdf0d5;
     text-decoration: none;
     display: inline-block;
-    border: 2px solid rgba(87, 54, 4);
+    border: 2px solid #669bbc;
+}
+
+nav a:hover {
+    color: rgba(87, 54, 4);
+    background-color: whitesmoke;
 }
