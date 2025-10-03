@@ -10,12 +10,18 @@ header{
 
  @font-face {
         font-family: otsikko;
-        src: url(komika.ttf);
+        src: url(../Fontti/komika.ttf);
+ }
+
+ a {
+    font-family: otsikko;
  }
 
 h1 {
-    font-family: otsikko, sans-serif;
-    color: #780000
+    font-family: otsikko, "sans serif";
+    font-size: 32px;
+    color: #780000;
+
 
 }
 
@@ -49,8 +55,8 @@ nav a:hover {
 footer{
     font-family: komika title, "sans serif";
     font-size: 18px;
-    color: rgba(87, 54, 4);
-    background-color: white;
+    color: #003049;
+    background-color: #669bbc;
     display: flex;
     justify-content: space-around;
     padding-top: 15px;
