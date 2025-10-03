@@ -85,19 +85,6 @@ footer{
     margin-top: auto;
 }
 
-/*logojen ymparys-nappi*/
-.fa {
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
-    background-color: #003049;
-    color:white;
-}
-.fa:hover {
-    opacity: 0.6;
-}
-
-
 /*Puhelin versio*/
 @media (max-width: 600px) {
     nav a { 
