@@ -69,3 +69,15 @@ footer{
     padding-bottom: 15px;
     margin-top: auto;
 }
+
+.fa {
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(87, 54, 4);
+    color:white;
+}
+.fa:hover {
+    opacity: 0.6;
+}
+
