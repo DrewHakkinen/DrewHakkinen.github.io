@@ -18,12 +18,17 @@ header{
     src: url(../Fontti/leipa.ttf);
  }
 
+ @font-face {
+    font-family: slogan;
+    src: url(../Fontti/otsikko.ttf);
+ }
+
  a {
     font-family: otsikko;
  }
 
 h1 {
-    font-family: sans-serif;
+    font-family: slogan;
     font-size: 32px;
     color: #780000;
 
@@ -74,7 +79,7 @@ footer{
     padding: 10px;
     text-align: center;
     text-decoration: none;
-    background-color: rgba(87, 54, 4);
+    background-color: #003049;
     color:white;
 }
 .fa:hover {
