@@ -9,11 +9,12 @@ header{
 }
 
  @font-face {
-        font-family: komika_title;
-        src: url(KOMTIhttps://www.dafont.com/komika-title.charmap?f=3&back=themeTT_.ttf);
+        font-family: otsikko;
+        src: url(komika.ttf);
  }
 
 h1 {
+    font-family: otsikko, sans-serif;
     color: #780000
 
 }
@@ -23,12 +24,12 @@ h2 {
 }
 
 p {
-    font-family: komika_title;
+    font-family: sans-serif;
 } 
 
 nav a {
     background: #003049;
-    font-family: komika_title, "sans serif";
+    font-family: otsikko, "sans serif";
     color:#fdf0d5;
     text-decoration: none;
     display: inline-block;
