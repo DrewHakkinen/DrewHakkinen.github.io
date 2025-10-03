@@ -8,6 +8,7 @@ header{
     padding-top: 30px;
 }
 
+ /*Fontit*/
  @font-face {
         font-family: otsikko;
         src: url(../Fontti/komika.ttf);
@@ -23,10 +24,12 @@ header{
     src: url(../Fontti/otsikko.ttf);
  }
 
+ /*slogan*/
  a {
     font-family: otsikko;
  }
 
+ /*headerit*/
 h1 {
     font-family: slogan;
     font-size: 32px;
@@ -39,11 +42,13 @@ h2 {
     color: #780000
 }
 
+/*leipateksti*/
 p {
     font-family: leipateksti;
     font-size: 22px;
 } 
 
+/*valikko*/
 nav a {
     background: #003049;
     font-family: otsikko, "sans serif";
@@ -53,11 +58,13 @@ nav a {
     border: 2px solid #669bbc;
 }
 
+/*hoveri eli hiiren ollessa napin paalla*/
 nav a:hover {
     color: #003049;
     background-color: #669bbc;
 }
 
+/*Milla sivulla ollaan*/
 #valittu {
     color: #003049;
     background-color: #a2c4dc;
@@ -75,6 +82,7 @@ footer{
     margin-top: auto;
 }
 
+/*logojen ymparys-nappi*/
 .fa {
     padding: 10px;
     text-align: center;
