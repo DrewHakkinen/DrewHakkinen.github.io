@@ -13,12 +13,17 @@ header{
         src: url(../Fontti/komika.ttf);
  }
 
+ @font-face {
+    font-family: leipateksti;
+    src: url(../Fontti/leipa.ttf);
+ }
+
  a {
     font-family: otsikko;
  }
 
 h1 {
-    font-family: otsikko, "sans serif";
+    font-family: sans-serif;
     font-size: 32px;
     color: #780000;
 
@@ -30,7 +35,8 @@ h2 {
 }
 
 p {
-    font-family: sans-serif;
+    font-family: leipateksti;
+    font-size: 22px;
 } 
 
 nav a {
