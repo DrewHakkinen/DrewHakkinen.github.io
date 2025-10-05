@@ -109,11 +109,14 @@ footer{
 }
 
 .fa{
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     text-decoration: none;
     background-color:#003049;
     color:#669bbc;
+}
+.fa:hover{
+    opacity: 0.6;
 }
 
 /*Puhelin versio*/
