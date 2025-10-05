@@ -109,9 +109,11 @@ footer{
 }
 
 .fa{
-    max-width: 400px;
-    vertical-align: baseline;
-    width: 100%;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    background-color:#003049;
+    color:#669bbc;
 }
 
 /*Puhelin versio*/
