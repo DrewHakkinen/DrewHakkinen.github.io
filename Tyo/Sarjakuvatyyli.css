@@ -91,6 +91,10 @@ nav a:hover {
     font-size: 18px;
     text-align: center;
     text-decoration: none;
+    img {
+        width: 100px;
+        height: 100px;
+    }
 }
 
 footer{
