@@ -73,25 +73,6 @@ nav a:hover {
     background-color: #a2c4dc;
 }    
 
-/*kuvat*/
-figure {
-    margin: auto;
-    margin-bottom: 0px;
-    max-width: 400px;
-}
-figcaption {
-    background-color: #003049;
-    color: white;
-    font-style: italic;
-    padding: 8px;
-    text-align: center;
-}
-.kuva {
-    max-width: 400px;
-    vertical-align: middle;
-    width: 100%;
-}
-
 
 /*logot*/
 .logo {
@@ -125,6 +106,12 @@ footer{
     padding-top: 15px;
     padding-bottom: 15px;
     margin-top: auto;
+}
+
+.fa{
+    max-width: 400px;
+    vertical-align: baseline;
+    width: 100%;
 }
 
 /*Puhelin versio*/
