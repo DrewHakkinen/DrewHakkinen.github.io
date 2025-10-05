@@ -82,6 +82,26 @@ nav a:hover {
     }
 }
 
+/*kuvat*/
+figure {
+    border: 10px #a2c4dc solid;
+    margin: auto;
+    margin-bottom: 0px;
+    max-width: 400px;
+}
+figcaption {
+    background-color: #669bbc;
+    color: #003049;
+    font-style: italic;
+    padding: 8px;
+    text-align: center;
+}
+.kuva {
+    max-width: 400px;
+    vertical-align: middle;
+    width: 100%;
+}
+
 /*logot*/
 .logo {
     padding: 10px;
