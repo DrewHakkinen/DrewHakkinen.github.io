@@ -265,6 +265,10 @@ footer{
         'g4-hk2'
         'g6-p2';
     }
+    img {
+        max-width: 400px;
+        width:100%
+    }
     footer{
     flex-direction: column;
     text-align: center;
