@@ -227,7 +227,7 @@ footer{
 }
 
 }
-
+/*isonäyttö*/
 @media (min-width: 1200px) {
     body {
     background-color: #fdf0d5;
@@ -353,7 +353,7 @@ figcaption {
     vertical-align: middle;
     width: 100%;
 }
-/*pääsivun asettely*/
+/*pääsivun asettelu*/
 .grid-teksti1 { grid-area: g1; }
 .grid-teksti2 { grid-area: g2; }
 .grid-kuva1 { grid-area: g3; }
