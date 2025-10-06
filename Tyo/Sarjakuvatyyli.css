@@ -386,7 +386,9 @@ figcaption {
 .grid-yritys {
     grid-template-areas:
         'g1-h1 g1-h1 g3-hk1'
-        'g4-hk2 g2-h2 g2-h2';
+        'g5-p1 g5-p1 g3-hk1'
+        'g4-hk2 g2-h2 g2-h2'
+        'g4-hk2 g6-p2 g6-p2';
 }
 
 footer{
