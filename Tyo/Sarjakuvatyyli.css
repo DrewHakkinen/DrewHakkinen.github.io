@@ -4,7 +4,7 @@ body {
 }
 
 header{
-    background-image: url("../Kuvat/piirros.jpg");
+    background-image: url("piirros.jpg");
     text-align: center;
     padding-top: 30px;
     img {
@@ -16,17 +16,17 @@ header{
  /*Fontit*/
  @font-face {
         font-family: otsikko;
-        src: url(../Fontti/komika.ttf);
+        src: url(komika.ttf);
  }
 
  @font-face {
     font-family: leipateksti;
-    src: url(../Fontti/leipa.ttf);
+    src: url(leipa.ttf);
  }
 
  @font-face {
     font-family: slogan;
-    src: url(../Fontti/otsikko.ttf);
+    src: url(otsikko.ttf);
  }
 
  /*slogan ja navi*/
@@ -290,7 +290,7 @@ footer{
 }
 
 header{
-    background-image: url("../Kuvat/piirros.jpg");
+    background-image: url("piirros.jpg");
     text-align: center;
     padding-top: 30px;
     img {
@@ -302,17 +302,17 @@ header{
  /*Fontit*/
  @font-face {
         font-family: otsikko;
-        src: url(../Fontti/komika.ttf);
+        src: url(komika.ttf);
  }
 
  @font-face {
     font-family: leipateksti;
-    src: url(../Fontti/leipa.ttf);
+    src: url(leipa.ttf);
  }
 
  @font-face {
     font-family: slogan;
-    src: url(../Fontti/otsikko.ttf);
+    src: url(otsikko.ttf);
  }
 
  /*slogan ja navi*/
