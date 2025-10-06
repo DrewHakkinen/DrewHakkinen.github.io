@@ -149,6 +149,26 @@ figcaption {
             'g2''g4';
     }
 
+
+.grid-henkilo1 { grid-area: g1-h1; }
+.grid-henkilo2 { grid-area: g2-h2; }
+.grid-henkilo1-kuva { grid-area: g3-hk1}
+.grid-henkilo2-kuva { grid-area: g4-hk2}
+.portfolio1 { grid-area: g5-p1}
+.portfolio2 { grid-area: g6-p2}
+
+.grid-yritys {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+}
+
+#asia {
+    grid-template-areas:
+        'g1-h1''g3-hk1'
+        'g2-h2''g4-hk2';
+}
+
 footer{
     font-family: komika title, "sans serif";
     font-size: 18px;
