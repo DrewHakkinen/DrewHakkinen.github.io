@@ -241,8 +241,11 @@ footer{
         'g5-p1 g5-p1 g3-hk1'
         'g4-hk2 g2-h2 g2-h2'
         'g4-hk2 g6-p2 g6-p2';
-}
-
+    }
+    footer{
+    flex-direction: column;
+    text-align: center;
+    }
 }
 /*isonäyttö*/
 @media (min-width: 1200px) {
