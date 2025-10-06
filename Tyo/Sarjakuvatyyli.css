@@ -133,6 +133,16 @@ figcaption {
     display: grid;
     gap: 20px;
     padding: 20px;
+.grid-kuva1 {
+    max-width: 400px;
+    vertical-align: middle;
+    width: 100%;
+}
+.grid-kuva2 {
+    max-width: 400px;
+    vertical-align: middle;
+    width: 100%;
+}
 }
 
 footer{
