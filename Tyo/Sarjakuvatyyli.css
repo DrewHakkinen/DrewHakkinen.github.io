@@ -127,7 +127,8 @@ figcaption {
 }
 .grid-teksti1 { grid-area: g1; }
 .grid-teksti2 { grid-area: g2; }
-.grid-kuva { grid-area: g3; }
+.grid-kuva1 { grid-area: g3; }
+.grid-kuva2 {grid-area: g4;}
 
 .grid-container {
     display: grid;
