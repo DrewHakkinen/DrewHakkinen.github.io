@@ -1,3 +1,4 @@
+@media screen and (min-width: 1200px) {
 body {
     background-color: #fdf0d5;
     margin: 0;
@@ -164,12 +165,10 @@ figcaption {
     padding: 20px;
 }
 
-#asia {
+.grid-yritys {
     grid-template-areas:
-        'g1-h1 g1-h1 g1-h1 g3-hk1 g3-hk1 g3-hk1'
-        'g5-p1 g5-p1 g5-p1 g5-p1 g5-p1 g5-p1'
-        'g2-h2 g2-h2 g2-h2 g4-hk2 g4-hk2 g4-hk2'
-        'g6-p2 g6-p2 g6-p2 g6-p2 g6-p2 g6-p2';
+        'g1-h1 g1-h1 g3-hk1'
+        'g4-hk2 g2-h2 g2-h2';
 }
 
 footer{
@@ -194,7 +193,7 @@ footer{
 .fa:hover{
     opacity: 0.6;
 }
-
+}
 
 /*Puhelin versio*/
 @media (max-width: 600px) { 
