@@ -8,8 +8,8 @@
     <title>Ohjeet</title>
 
 </head>
-<body>
-    <header id="ohje">
+<body id="ohje">
+    <header>
         <nav>
             <a href="index.html">Etusivu</a>
             <a href="tietoameista.html" id="valittu">Tututstu prosessiin</a>
@@ -19,27 +19,41 @@
         <h1 id="slogan">Räätälöityä palvelua juuri sinulle!</h1>
         <a href="yhteystiedot.html" class="toimintakehote"><img src="../Kuvat/cta_teksti.jpg" alt="Sarjakuvan kuva"></a>
     </header> 
-    <h1>Tuotepaketit ja hinnat</h1>
-    <p>Tavoitteenamme on, ettei yksikään sarjakuvaluonnos enää jää hyllyyn pölyttymään tai ideaksi pääkoppaan. Pääset tutustumaan alla tuotepaketteihin sekä hinnoitteluumme.</p>
-   
-    <h2>Printtiä vaille valmis -paketti</h2>
-    <p>Tämä on vaivattomin valinta sinulle, jolla on jo tarina sekä kuvitukset valmiina. Laita meille materiaalit sähköpostiin, niin me postitamme valmiin tuotoksen kotiovellesi.</p>   
-    
-    <h2>Kuvitusta vaille valmis -paketti</h2>
-    <p>Onko sinulla huikea tarina jo valmiina, mutta kuvitukset puuttuvat tai kaipaavat hiomista? Ei hätää, tämän tuotepaketin<br>
-    valitessasi saat apua huikeilta kuvittajiltamme, jotka auttavat tarinasi kuvittamisessa. Tutustu kuvittajiimme sekä heidän portfolioihinsa <a href="asia.html">täällä.</a><br>
-    Tämän tuotepaketin räätälöimme täysin tarpeidesi mukaan, valittuasi kuvittajan voit tehdä hänen kanssaan niin tiivistä<br>
-    yhteistyötä kuin toivot päästäksesi toivottuun lopputuloksen.</p>
-
-    <h2>Hinnastomme</h2>
-
-    <h3>Printtiä vaille valmis -paketti 45€</h3>
-    <p> Tähän pakettiin sisältyy 20 sivua ja lisäsivuista veloitamme 2€/per sivu. </p>
-   
-    <h3>Kuvitusta vaille valmis -paketti 80€</h3>
-    <p>Räätälöimme paketin juuri sinua varten, joten tämän paketin hinnta määräytyy tarpeidesi mukaan. Kuvittajamme lähettävät sinulle<br>
-    hinta-arvionsa tutustuttuaan ideaasi ja toiveiseesi kuvitusten suhteen. Pakettiin sisältyy kuitenkin ilmainen 60minuutin konsultaatio<br>
-    valitsemasi kuvittajan kanssa.</p>
+    <div class="ohje-sisalto">
+       <div>
+            <h1>Tuotepaketit ja hinnat</h1>
+             <p> class= "esittely"> Tavoitteenamme on, ettei yksikään sarjakuvaluonnos enää jää hyllyyn pölyttymään tai ideaksi pääkoppaan.<br>Pääset tutustumaan alla tuotepaketteihin sekä hinnoitteluumme.</p>
+            <section class= "grid-container" id="prosessi">
+                <div class="grid-teksti1">
+                    <h2>Printtiä vaille valmis -paketti</h2>
+                        <p>Tämä on vaivattomin valinta sinulle, jolla on jo tarina sekä kuvitukset valmiina. Laita meille materiaalit sähköpostiin, niin me postitamme valmiin tuotoksen kotiovellesi.</p>       
+                </div>
+                <div class="grid-teksti2"></div>
+                    <h2>Kuvitusta vaille valmis -paketti</h2>
+                        <p>Onko sinulla huikea tarina jo valmiina, mutta kuvitukset puuttuvat tai kaipaavat hiomista? Ei hätää, tämän tuotepaketin<br>
+                        valitessasi saat apua huikeilta kuvittajiltamme, jotka auttavat tarinasi kuvittamisessa. Tutustu kuvittajiimme sekä heidän portfolioihinsa <a href="asia.html">täällä.</a><br>
+                        Tämän tuotepaketin räätälöimme täysin tarpeidesi mukaan, valittuasi kuvittajan voit tehdä hänen kanssaan niin tiivistä<br>
+                        yhteistyötä kuin toivot päästäksesi toivottuun lopputuloksen.</p>
+                </div> 
+                <div class="grid-teksti3">           
+                    <h2>Hinnastomme</h2>
+                        <h3>Printtiä vaille valmis -paketti 45€</h3>
+                        <p> Tähän pakettiin sisältyy 20 sivua ja lisäsivuista veloitamme 2€/per sivu. </p>
+                        
+                        <h3>Kuvitusta vaille valmis -paketti 80€</h3>
+                        <p>Räätälöimme paketin juuri sinua varten, joten tämän paketin hinnta määräytyy tarpeidesi mukaan. Kuvittajamme lähettävät sinulle
+                        hinta-arvionsa tutustuttuaan ideaasi ja toiveiseesi kuvitusten suhteen. Pakettiin sisältyy kuitenkin ilmainen 60minuutin konsultaatio
+                        valitsemasi kuvittajan kanssa.</p>
+                </div> 
+                <div class="grid-kuva1">
+                    <figure>
+                        <img class="kuva" src="../Kuvat/sarjakuva3.jpg" alt="sarjakuvakioski">
+                        <figcaption>Lähde: X Kuvapankki </figcaption>
+                    </figure>
+                </div>
+            </section>  
+        </div>
+    </div>     
          <footer>
          <div>
          <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
