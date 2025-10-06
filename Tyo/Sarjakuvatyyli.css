@@ -180,4 +180,12 @@ footer{
     .toimintakehote {
         font-size: 20px;
     }
+
+    #paasivu {
+        grid-template-areas:
+            'g1'
+            'g3'
+            'g2'
+            'g4';
+    }
 }
