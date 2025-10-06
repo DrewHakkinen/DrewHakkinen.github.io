@@ -1,4 +1,3 @@
-@media screen and (min-width: 1200px) {
 body {
     background-color: #fdf0d5;
     margin: 0;
@@ -193,7 +192,7 @@ footer{
 .fa:hover{
     opacity: 0.6;
 }
-}
+
 
 /*Puhelin versio*/
 @media (max-width: 600px) { 
@@ -215,4 +214,201 @@ footer{
             'g2'
             'g4';
     }
+}
+
+@media (min-width: 1200px) {
+    body {
+    background-color: #fdf0d5;
+    margin: 0;
+}
+
+header{
+    background-image: url("../Kuvat/piirros.jpg");
+    text-align: center;
+    padding-top: 30px;
+    img {
+        width: 100%;
+        padding: 0px;
+    }
+}
+
+ /*Fontit*/
+ @font-face {
+        font-family: otsikko;
+        src: url(../Fontti/komika.ttf);
+ }
+
+ @font-face {
+    font-family: leipateksti;
+    src: url(../Fontti/leipa.ttf);
+ }
+
+ @font-face {
+    font-family: slogan;
+    src: url(../Fontti/otsikko.ttf);
+ }
+
+ /*slogan ja navi*/
+ a {
+    font-family: otsikko;
+    padding: 5px;
+ }
+
+ /*headerit*/
+h1 {
+    padding-left: 20px;
+    font-family: slogan;
+    font-size: 32px;
+    color: #780000;
+
+
+}
+
+h2 {
+    padding-left: 20px;
+    font-size: 23px;
+    font-family: slogan;
+    color: #780000
+}
+
+h3 {
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: slogan;
+    color: #780000
+}
+
+/*leipateksti*/
+p {
+    padding-left: 20px;
+    font-family: leipateksti;
+    font-size: 22px;
+} 
+
+/*valikko*/
+nav a {
+    background: #003049;
+    font-family: otsikko, "sans serif";
+    color:#fdf0d5;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid #669bbc;
+}
+
+/*hoveri eli hiiren ollessa napin paalla*/
+nav a:hover {
+    color: #003049;
+    background-color: #669bbc;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid #669bbc;
+}
+
+/*Milla sivulla ollaan*/
+#valittu {
+    color: #003049;
+    background-color: #a2c4dc;
+}    
+.toimintakehote {
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    img {
+        width: 100px;
+        height: 100px;
+    }
+}
+.esittely {
+    text-align: center;
+}
+
+/*kuvat*/
+figure {
+    border: 10px #a2c4dc solid;
+    margin: auto;
+    margin-bottom: 0px;
+    max-width: 400px;
+}
+figcaption {
+    background-color: #669bbc;
+    color: #003049;
+    font-style: italic;
+    padding: 8px;
+    text-align: center;
+}
+.kuva {
+    max-width: 400px;
+    vertical-align: middle;
+    width: 100%;
+}
+/*pääsivun asettely*/
+.grid-teksti1 { grid-area: g1; }
+.grid-teksti2 { grid-area: g2; }
+.grid-kuva1 { grid-area: g3; }
+.grid-kuva2 {grid-area: g4;}
+
+.grid-container {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+.grid-kuva1 {
+    max-width: 400px;
+    vertical-align: middle;
+    width: 100%;
+}
+.grid-kuva2 {
+    max-width: 400px;
+    vertical-align: middle;
+    width: 100%;
+}
+}
+
+    #paasivu {
+        grid-template-areas:
+            'g1''g3'
+            'g2''g4';
+    }
+
+/*asiasivun asettelu*/
+.grid-henkilo1 { grid-area: g1-h1; }
+.grid-henkilo2 { grid-area: g2-h2; }
+.grid-henkilo1-kuva { grid-area: g3-hk1}
+.grid-henkilo2-kuva { grid-area: g4-hk2}
+.portfolio1 { grid-area: g5-p1}
+.portfolio2 { grid-area: g6-p2}
+
+.grid-yritys {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-yritys {
+    grid-template-areas:
+        'g1-h1 g1-h1 g3-hk1'
+        'g4-hk2 g2-h2 g2-h2';
+}
+
+footer{
+    font-family: komika title, "sans serif";
+    font-size: 18px;
+    color: #003049;
+    background-color: #669bbc;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: auto;
+}
+
+.fa{
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    background-color:#003049;
+    color:#669bbc;
+}
+.fa:hover{
+    opacity: 0.6;
+}
 }
