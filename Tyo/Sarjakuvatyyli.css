@@ -122,6 +122,15 @@ figcaption {
     vertical-align: middle;
     width: 100%;
 }
+.grid-teksti1 { grid-area: g1; }
+.grid-teksti2 { grid-area: g2; }
+.grid-kuva { grid-area: g3; }
+
+.grid-container {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+}
 
 footer{
     font-family: komika title, "sans serif";
