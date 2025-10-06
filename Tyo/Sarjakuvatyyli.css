@@ -106,7 +106,7 @@ nav a:hover {
     text-align: left;
 }
 
-/*kuvat, ei vielä käytössä*/
+/*kuvat*/
 figure {
     border: 10px #a2c4dc solid;
     margin: auto;
@@ -134,17 +134,23 @@ figcaption {
     display: grid;
     gap: 20px;
     padding: 20px;
-.grid-kuva2 {
-    max-width: 400px;
-    vertical-align: middle;
-    width: 100%;
-}
 .grid-kuva1 {
     max-width: 400px;
     vertical-align: middle;
     width: 100%;
 }
+.grid-kuva2 {
+    max-width: 400px;
+    vertical-align: middle;
+    width: 100%;
 }
+}
+
+    #paasivu {
+        grid-template-areas:
+            'g1''g3'
+            'g2''g4';
+    }
 
 footer{
     font-family: komika title, "sans serif";
@@ -168,6 +174,7 @@ footer{
 .fa:hover{
     opacity: 0.6;
 }
+
 
 /*Puhelin versio*/
 @media (max-width: 600px) { 
