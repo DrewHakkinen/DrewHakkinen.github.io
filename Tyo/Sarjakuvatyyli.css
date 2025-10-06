@@ -227,12 +227,18 @@ footer{
         flex-direction: column;
     }
 
+    p {
+        font-size: 22px;
+        text-align: left;
+    }
+
     h1 {
         font-size: 30px;
         margin-bottom: 50px;
     }
     h2{
         font-size: 25px;
+        text-align: left;
     }
     h3 {
         font-size: 20px;
