@@ -29,9 +29,10 @@ header{
     src: url(../Fontti/otsikko.ttf);
  }
 
- /*slogan*/
+ /*slogan ja navi*/
  a {
     font-family: otsikko;
+    padding: 5px;
  }
 
  /*headerit*/
